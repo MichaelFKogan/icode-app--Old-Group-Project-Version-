@@ -16,7 +16,7 @@ export default class IndexPage extends React.Component {
     return (
       <div className="container">
         <h2 className="text-center">
-          Welcome
+          Welcome to iCode
           { this.context.user ? ' ' + this.context.user.givenName : null }!
         </h2>
         <hr />
