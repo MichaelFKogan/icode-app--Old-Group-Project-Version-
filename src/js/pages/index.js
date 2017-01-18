@@ -6,3 +6,8 @@ export ResetPasswordPage from './ResetPasswordPage'
 export VerifyEmailPage from './VerifyEmailPage'
 export ProfilePage from './ProfilePage'
 export ChangePasswordPage from './ChangePasswordPage'
+export SearchPage from './SearchPage'
+
+export ResultsOne from './children/ResultsOne'
+export ResultsTwo from './children/ResultsTwo'
+export ResultsThree from './children/ResultsThree'

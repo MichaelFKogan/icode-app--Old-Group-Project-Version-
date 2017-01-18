@@ -8,6 +8,10 @@ export default class IndexPage extends React.Component {
     user: React.PropTypes.object
   };
 
+
+
+  // FIRST PAGE/WELCOME PAGE - LOGIN, CREATE ACCOUNT, ETC. 
+
   render() {
     return (
       <div className="container">
@@ -22,12 +26,17 @@ export default class IndexPage extends React.Component {
           </p>
           <p>Ready to begin? Try these Stormpath features that are included in this example:</p>
           <ol className="lead">
+            
             <NotAuthenticated>
               <li><Link to="/register">Registration</Link></li>
               <li><LoginLink /></li>
               <li><Link to="/forgot">Forgot Password</Link></li>
             </NotAuthenticated>
+
             <li><Link to="/profile">Custom Profile Data</Link></li>
+            <li><Link to="/Search">Search Page</Link></li>
+
+
           </ol>
         </div>
       </div>
